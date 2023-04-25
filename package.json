@@ -2,7 +2,10 @@
   "name": "newsletter-signup",
   "version": "1.0.0",
   "description": "",
-  "main": "touch.js",
+  "main": "app.js",
+  "engines":{
+    "node" :"14.x"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +14,6 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "heroku": "^8.0.5",
     "request": "^2.88.2"
   }
 }
